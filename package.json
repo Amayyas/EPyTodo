@@ -1,0 +1,23 @@
+{
+  "name": "epytodo",
+  "version": "1.0.0",
+  "description": "A Todo List API built with Node.js, Express and MySQL",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["todo", "api", "nodejs", "express", "mysql"],
+  "author": "Student",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
